@@ -1,0 +1,62 @@
+h1{
+    text-transform: uppercase;
+    color:rgb(0, 82, 189);
+    text-align:center;
+}
+body {
+    -webkit-animation: colorchange 10s infinite;
+    animation: colorchange 10s infinite;
+  }
+  @keyframes colorchange {
+    0% {
+      background: #f16a6a;
+    }
+    10% {
+      background: #ffb679;
+    }
+    20% {
+      background: #e4bf76;
+    }
+    30% {
+      background: #d9d74f;
+    }
+    40% {
+      background: #99c566;
+    } 
+    50% {
+      background: #5bbcbc;
+    }
+    60% {
+      background: #8086ff;
+    }
+    70% {
+      background: #e37dff;
+    }
+    80% {
+      background: #ff7ae2;
+    }
+    90% {
+      background: #ff7ab6;
+    }
+    100% {
+      background: #ff5c77;
+    }
+  }
+a{
+  color:rgb(0, 63, 146);
+  font-size: large;
+  text-align: center;
+}
+img{
+  width: 500px;
+  display: block;
+  margin: auto;
+}
+p{
+  font-size: 20px;
+  color:white
+}
+h2{
+  color:rgb(0, 82, 189);
+  float:right;
+}
